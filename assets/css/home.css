@@ -588,3 +588,10 @@ footer {
     justify-content: center;
     gap: 10px;
 }
+
+@media (max-width: 420px) {
+  .frase-inicial {
+    font-size: 10px;
+    padding-top: 20px;
+  }
+}
