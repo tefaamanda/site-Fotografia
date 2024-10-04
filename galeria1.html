@@ -14,6 +14,14 @@
     <link href="https://db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu+Regular" rel="stylesheet">
 </head>
 <body>
+    <script>
+      setTimeout(function() {
+      var textoDestacado = document.getElementById("tempo-de-Destaque");
+      textoDestacado.style.color = 'white';
+      textoDestacado.style.fontSize = '20px';
+      textoDestacado.style.textShadow = '0 0 2.5px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff';
+      }, 3000);
+    </script>
     <header>
         <a href="index.html">
         <img class="logo" src="assets/img/sthelar.png" alt="Logo da Agência.">
@@ -44,7 +52,7 @@
     <main>
         <section class="menu">
             <div class="menu-texto">
-                <a class="menu-t1" href="galeria1.html">
+                <a id="tempo-de-Destaque" class="menu-t1" href="galeria1.html">
                     FOTOS PESSOAIS
                 </a>
                 <a class="menu-t2" href="galeria2.html">
@@ -93,7 +101,6 @@
 
                   </div>
                   </br></br></br>
-                <div>
                   <div class="arte-sec">
                     <div class="card4">
                       <div class="card__content">

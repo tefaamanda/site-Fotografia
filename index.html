@@ -14,6 +14,11 @@
     <link href="https://db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu+Regular" rel="stylesheet">
 </head>
 <body>
+    <script>
+        window.onload = function() {
+        document.getElementById("fotoBio").style.opacity = 1;
+        };
+    </script>
     <header>
         <a href="index.html">
         <img class="logo" src="assets/img/sthelar.png" alt="Logo da Agência.">
@@ -50,7 +55,7 @@
         </section>
         <section class="biografia">
             <div class="foto-sec">
-                <img class="foto-bio" src="assets/img/foto-eu.png" alt="Fotógrafa Sthefany Amanda.">
+                <img id="fotoBio" class="foto-bio" src="assets/img/foto-eu.png" alt="Fotógrafa Sthefany Amanda." style="opacity: 0; transition: opacity 1s;">
             </div>
             <div>
                 <h1 class="nome-bio">Sthefany Amanda</h1>

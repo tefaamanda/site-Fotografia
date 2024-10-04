@@ -14,6 +14,12 @@
     <link href="https://db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu+Regular" rel="stylesheet">
 </head>
 <body>
+<script>
+    window.onload = function() {
+    document.getElementById("infoContato").style.opacity = 1;
+    document.getElementById("infoTitulo").style.opacity = 1;
+    };
+</script>
     <header>
         <a href="index.html">
         <img class="logo" src="assets/img/sthelar.png" alt="Logo da Agência.">
@@ -42,15 +48,18 @@
         </nav>
     </header>
     <main>
-        <h1>
+        <h1 id="infoTitulo" style="opacity: 0; transition: opacity 1s;">
             Informações de Contato
         </h1>
-        <p>
+        <p id="infoContato" style="opacity: 0; transition: opacity 1s;">
             Atendo eventos apenas com horário marcado.
         </br>
             Fone <b>(55) 18 99161-3770</b>
     </br>
             <b>Email:</b> tefaamanda2020@gmail.com
+    </br>
+            No momento não possuo estúdio próprio porém temos o apoio da
+            </br> "BeBrow Studios" com uma taxa adicional pelo uso do estúdio.
         </p>
     </main>
     <footer>
@@ -78,5 +87,4 @@
                 </a>
       </div>
     </footer>
-    </>
 </body>
