@@ -1,0 +1,964 @@
+*{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+}
+
+:root{
+     --cabecalho: #080404;
+     --logo: #f5008d;
+     --background: #f5f5f5;
+     --background2: #f6d6e9;
+     --background3: #ffffff;
+     --background4: #1D201D;
+     --fonte1: #fa0001;
+     --fonte2: #a9a7aa;
+}
+
+.logo {
+    width: 110px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cabecalho);
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    margin-right: 37px;
+    font-family: "Nexa W01 Heavy";
+}
+
+.home {
+    color: var(--logo);
+}
+
+.galeria {
+    color: var(--logo);
+}
+
+.orcamento {
+    color: var(--logo);
+}
+
+.contato {
+    color: var(--logo);
+}
+
+.home:hover {
+    color: var(--background2);
+}
+
+.galeria:hover {
+    color: var(--background2);
+}
+
+.orcamento:hover {
+    color: var(--background2);
+}
+
+.contato:hover {
+    color: var(--background2);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--logo);
+    text-align: center;
+}
+
+.menu-t1 {
+    text-align: center;
+}
+
+.menu-t2 {
+    text-align: center;
+}
+
+.card1 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezcinco-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card2 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card3 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezseis-1.png);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card4 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/deztres-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card5 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/decimas-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card6 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-6.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card1 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card2 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card3 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card4 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card5 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card6 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card1:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card2:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card3:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card4:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card5:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card6:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card1:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card2:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card3:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card4:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card5:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card6:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+    .card1:hover svg {
+    scale: 0;
+  }
+
+  .card2:hover svg {
+    scale: 0;
+  }
+
+  .card3:hover svg {
+    scale: 0;
+  }
+
+  .card4:hover svg {
+    scale: 0;
+  }
+
+  .card5:hover svg {
+    scale: 0;
+  }
+
+  .card6:hover svg {
+    scale: 0;
+  }
+
+  .card7 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezcinco-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card8 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card9 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezseis-1.png);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card10 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/deztres-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card11 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/decimas-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card12 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-6.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card7 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card8 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card9 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card10 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card11 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card12 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card7:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card8:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card9:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card10:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card11:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card12:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card7:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card8:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card9:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card10:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card11:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card12:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+    .card7:hover svg {
+    scale: 0;
+  }
+
+  .card8:hover svg {
+    scale: 0;
+  }
+
+  .card9:hover svg {
+    scale: 0;
+  }
+
+  .card10:hover svg {
+    scale: 0;
+  }
+
+  .card11:hover svg {
+    scale: 0;
+  }
+
+  .card12:hover svg {
+    scale: 0;
+  }
+
+  .card13 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezcinco-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card14 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card15 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezseis-1.png);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card16 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/deztres-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card17 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/decimas-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card18 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-6.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card13 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card14 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card15 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card16 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card17 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card18 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card13:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card14:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card15:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card16:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card17:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card18:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card13:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card14:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card15:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card16:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card17:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card18:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+    .card13:hover svg {
+    scale: 0;
+  }
+
+  .card14:hover svg {
+    scale: 0;
+  }
+
+  .card15:hover svg {
+    scale: 0;
+  }
+
+  .card16:hover svg {
+    scale: 0;
+  }
+
+  .card17:hover svg {
+    scale: 0;
+  }
+
+  .card18:hover svg {
+    scale: 0;
+  }
+
+  .card19 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezcinco-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card20 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-1.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card21 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezseis-1.png);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card22 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/deztres-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card23 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/decimas-2.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card24 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: url(../img/dezum-6.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card19 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card20 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card21 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card22 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card23 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card24 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card19:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card20:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card21:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card22:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card23:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card24:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card19:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card20:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card21:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card22:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card23:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+  .card24:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+
+    .card19:hover svg {
+    scale: 0;
+  }
+
+  .card20:hover svg {
+    scale: 0;
+  }
+
+  .card21:hover svg {
+    scale: 0;
+  }
+
+  .card22:hover svg {
+    scale: 0;
+  }
+
+  .card23:hover svg {
+    scale: 0;
+  }
+
+  .card24:hover svg {
+    scale: 0;
+  }
+
+    .card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+    font-family: "Avenir-Medium";
+  }
+
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+    font-family: "Apercu Regular";
+    line-height: 20px;
+  }
+
+.arte-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: var(--cabecalho);
+    padding: 40px;
+}
+
+.rede-i {
+    width: 60px;
+}
+
+.rede-t {
+    width: 39px;
+    padding-top: 3px;
+}
+
+.rede-tu {
+    width: 39px;
+    padding-top: 3px;
+}
+
+.rede-p {
+    width: 39px;
+    padding-top: 3px;
+}
+
+.logo-rodapé-sec {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-rodapé {
+    width: 110px;
+}
+
+.copyright {
+    font-family: "Avenir-Medium";
+    font-size: 15px;
+    text-align: center;
+    color: var(--background);
+    padding-bottom: 10px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}

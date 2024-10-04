@@ -1,0 +1,119 @@
+*{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+}
+
+:root{
+     --cabecalho: #080404;
+     --logo: #f5008d;
+     --background: #f5f5f5;
+     --background2: #f6d6e9;
+     --background3: #ffffff;
+     --background4: #1D201D;
+     --fonte1: #fa0001;
+     --fonte2: #a9a7aa;
+}
+
+.logo {
+    width: 110px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cabecalho);
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    margin-right: 37px;
+    font-family: "Nexa W01 Heavy";
+}
+
+.home {
+    color: var(--logo);
+}
+
+.galeria {
+    color: var(--logo);
+}
+
+.orcamento {
+    color: var(--logo);
+}
+
+.contato {
+    color: var(--logo);
+}
+
+.home:hover {
+    color: var(--background2);
+}
+
+.galeria:hover {
+    color: var(--background2);
+}
+
+.orcamento:hover {
+    color: var(--background2);
+}
+
+.contato:hover {
+    color: var(--background2);
+}
+
+
+
+footer {
+    background: var(--cabecalho);
+    padding: 40px;
+}
+
+.rede-i {
+    width: 60px;
+}
+
+.rede-t {
+    width: 39px;
+    padding-top: 3px;
+}
+
+.rede-tu {
+    width: 39px;
+    padding-top: 3px;
+}
+
+.rede-p {
+    width: 39px;
+    padding-top: 3px;
+}
+
+.logo-rodapé-sec {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-rodapé {
+    width: 110px;
+}
+
+.copyright {
+    font-family: "Avenir-Medium";
+    font-size: 15px;
+    text-align: center;
+    color: var(--background);
+    padding-bottom: 10px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
