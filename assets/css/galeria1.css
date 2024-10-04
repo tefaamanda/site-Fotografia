@@ -25,6 +25,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background: var(--cabecalho);
+    position: relative;
+    z-index: 10;
 }
 
 nav {
@@ -72,15 +74,32 @@ nav {
     align-items: center;
     background: var(--logo);
     text-align: center;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    gap: 30px;
+    font-family: "Nexa W01 Heavy";
+    padding: 20px;
+    padding-left: 450px;
 }
 
 .menu-t1 {
-    text-align: center;
+    color: var(--background3);
 }
 
 .menu-t2 {
-    text-align: center;
+    padding-left: 30px;
+    color: var(--background3);
 }
+
+.menu-t1:hover {
+    color: var(--background2);
+}
+
+.menu-t2:hover {
+  color: var(--background2);
+}
+
 
 .card1 {
     position: relative;
@@ -100,7 +119,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/dezcinco-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -114,7 +133,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/dezcinco-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -128,7 +147,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/dezcinco-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -142,7 +161,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/dezcinco-5.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -156,7 +175,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/dezcinco-6.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -284,7 +303,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/dezcinco-7.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -312,7 +331,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/dezum-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -326,7 +345,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/dezum-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -340,7 +359,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/dezum-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -354,7 +373,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/dezum-5.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -482,7 +501,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/dezum-6.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -496,7 +515,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/dezum-7.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -510,7 +529,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/oitavas-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -524,7 +543,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/oitavas-2.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -538,7 +557,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/oitavas-3.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -552,7 +571,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/oitavas-4.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -680,7 +699,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/setimas-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -694,7 +713,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/setimas-2.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -708,7 +727,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/setimas-3.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -722,7 +741,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/setimas-4.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -736,7 +755,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/setimas-5.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -750,7 +769,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/setimas-6.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -878,7 +897,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/decimas-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -892,7 +911,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/decimas-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -906,7 +925,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/decimas-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -920,7 +939,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/decimas-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -934,7 +953,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/decimas-5.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -948,7 +967,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/nonas-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1076,7 +1095,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/nonas-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1090,7 +1109,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/nonas-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1104,7 +1123,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/nonas-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1118,7 +1137,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/nonas-5.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1132,7 +1151,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/deztres-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1146,7 +1165,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/deztres-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1274,7 +1293,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/deztres-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1288,7 +1307,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/deztres-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1302,7 +1321,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/deztres-5.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1316,7 +1335,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/deztres-6.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1330,7 +1349,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/deztres-7.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1344,7 +1363,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/deztres-8.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1472,7 +1491,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/dezdois-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1486,7 +1505,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/dezdois-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1500,7 +1519,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/dezdois-3.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1514,7 +1533,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/dezdois-4.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1528,7 +1547,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/dezquatro-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1542,7 +1561,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/dezquatro-2.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1670,7 +1689,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/dezquatro-3.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1684,7 +1703,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/dezquatro-4.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1712,7 +1731,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/dezseis-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1726,7 +1745,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/dezseis-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1740,7 +1759,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/dezseis-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1868,7 +1887,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/dezseis-5.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1882,7 +1901,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/dezsete-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1896,7 +1915,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/dezsete-2.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1910,7 +1929,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/dezsete-3.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1924,7 +1943,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/dezsete-4.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -1938,7 +1957,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/quintas-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2066,7 +2085,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/quintas-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2080,7 +2099,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/quintas-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2094,7 +2113,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/quintas-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2108,7 +2127,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/sextas-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2122,7 +2141,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/sextas-2.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2136,7 +2155,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/segundas-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2264,7 +2283,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/segundas-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2278,7 +2297,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/quartas-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2292,7 +2311,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/quartas-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2306,7 +2325,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/quartas-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2320,7 +2339,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/quartas-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2334,7 +2353,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/primeiras-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2462,7 +2481,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/primeiras-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2476,7 +2495,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/primeiras-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2490,49 +2509,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card76 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/deztres-2.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card77 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/decimas-2.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card78 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/terceiras-1.png);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -2560,23 +2537,6 @@ nav {
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  .card76 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card77 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card78 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
 
   .card73:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -2587,18 +2547,6 @@ nav {
   }
 
   .card75:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card76:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card77:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card78:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
 
@@ -2617,21 +2565,6 @@ nav {
     opacity: 1;
   }
 
-  .card76:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card77:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card78:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
     .card73:hover svg {
     scale: 0;
   }
@@ -2641,216 +2574,6 @@ nav {
   }
 
   .card75:hover svg {
-    scale: 0;
-  }
-
-  .card76:hover svg {
-    scale: 0;
-  }
-
-  .car77:hover svg {
-    scale: 0;
-  }
-
-  .card78:hover svg {
-    scale: 0;
-  }
-
-  .card79 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/dezcinco-1.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card80 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/dezum-1.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card81 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/dezseis-1.png);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card82 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/deztres-2.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card83 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/decimas-2.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card84 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/dezum-6.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card79 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card80 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card81 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card82 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card83 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card84 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card79:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card80:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card81:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card82:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card83:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card84:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card79:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card80:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card81:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card82:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card83:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card84:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-    .card79:hover svg {
-    scale: 0;
-  }
-
-  .card80:hover svg {
-    scale: 0;
-  }
-
-  .card81:hover svg {
-    scale: 0;
-  }
-
-  .card82:hover svg {
-    scale: 0;
-  }
-
-  .card83:hover svg {
-    scale: 0;
-  }
-
-  .card84:hover svg {
     scale: 0;
   }
 
@@ -2891,6 +2614,8 @@ nav {
     justify-content: center;
     gap: 50px;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 10;
 }
 
 footer {

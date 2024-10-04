@@ -1,92 +1,110 @@
 *{
-     margin: 0;
-     padding: 0;
-     text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 :root{
-     --cabecalho: #080404;
-     --logo: #f5008d;
-     --background: #f5f5f5;
-     --background2: #f6d6e9;
-     --background3: #ffffff;
-     --background4: #1D201D;
-     --fonte1: #fa0001;
-     --fonte2: #a9a7aa;
+  --cabecalho: #080404;
+  --logo: #f5008d;
+  --background: #f5f5f5;
+  --background2: #f6d6e9;
+  --background3: #ffffff;
+  --background4: #1D201D;
+  --fonte1: #fa0001;
+  --fonte2: #a9a7aa;
 }
 
 .logo {
-    width: 110px;
-    margin-left: 20px;
+ width: 110px;
+ margin-left: 20px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--cabecalho);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: var(--cabecalho);
+ position: relative;
+ z-index: 10;
 }
 
 nav {
-    display: flex;
-    gap: 25px;
-    margin-right: 37px;
-    font-family: "Nexa W01 Heavy";
+ display: flex;
+ gap: 25px;
+ margin-right: 37px;
+ font-family: "Nexa W01 Heavy";
 }
 
 .home {
-    color: var(--logo);
+ color: var(--logo);
 }
 
 .galeria {
-    color: var(--logo);
+ color: var(--logo);
 }
 
 .orcamento {
-    color: var(--logo);
+ color: var(--logo);
 }
 
 .contato {
-    color: var(--logo);
+ color: var(--logo);
 }
 
 .home:hover {
-    color: var(--background2);
+ color: var(--background2);
 }
 
 .galeria:hover {
-    color: var(--background2);
+ color: var(--background2);
 }
 
 .orcamento:hover {
-    color: var(--background2);
+ color: var(--background2);
 }
 
 .contato:hover {
-    color: var(--background2);
+ color: var(--background2);
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--logo);
-    text-align: center;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: var(--logo);
+ text-align: center;
+ position: relative;
+ z-index: 10;
+ display: flex;
+ gap: 30px;
+ font-family: "Nexa W01 Heavy";
+ padding: 20px;
+ padding-left: 450px;
 }
 
 .menu-t1 {
-    text-align: center;
+ color: var(--background3);
 }
 
 .menu-t2 {
-    text-align: center;
+ padding-left: 30px;
+ color: var(--background3);
+}
+
+.menu-t1:hover {
+ color: var(--background2);
+}
+
+.menu-t2:hover {
+color: var(--background2);
 }
 
 .card1 {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/kenzo-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -100,7 +118,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/kenzo-10.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -114,7 +132,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/kenzo-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -128,7 +146,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/kenzo-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -142,7 +160,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/kenzo-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -156,7 +174,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/kenzo-5.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -284,7 +302,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/kenzo-6.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -298,7 +316,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/kenzo-7.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -312,7 +330,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/kenzo-8.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -326,7 +344,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/kenzo-9.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -340,7 +358,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/ana-1.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -354,7 +372,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/ana-2.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -482,7 +500,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/ana-3.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -496,7 +514,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
+    background: url(../img/ana-4.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -510,7 +528,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezseis-1.png);
+    background: url(../img/ana-5.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -524,7 +542,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/deztres-2.jpg);
+    background: url(../img/ana-6.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -538,7 +556,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/decimas-2.jpg);
+    background: url(../img/ana-7.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -552,7 +570,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/ana-8.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -680,7 +698,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezcinco-1.jpg);
+    background: url(../img/ana-9.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -694,63 +712,7 @@ nav {
     position: relative;
     width: 350px;
     height: 350px;
-    background: url(../img/dezum-1.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card21 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/dezseis-1.png);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card22 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/deztres-2.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card23 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/decimas-2.jpg);
-    background-size: 100%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card24 {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: url(../img/dezum-6.jpg);
+    background: url(../img/ana-10.jpg);
     background-size: 100%;
     border-radius: 10px;
     display: flex;
@@ -772,29 +734,6 @@ nav {
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  .card21 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card22 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card23 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .card24 svg {
-    width: 48px;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
 
   .card19:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -804,21 +743,6 @@ nav {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
 
-  .card21:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card22:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card23:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .card24:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
 
   .card19:hover .card__content {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -830,27 +754,8 @@ nav {
     opacity: 1;
   }
 
-  .card21:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
 
-  .card22:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card23:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-  .card24:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-  }
-
-    .card19:hover svg {
+  .card19:hover svg {
     scale: 0;
   }
 
@@ -858,23 +763,7 @@ nav {
     scale: 0;
   }
 
-  .card21:hover svg {
-    scale: 0;
-  }
-
-  .card22:hover svg {
-    scale: 0;
-  }
-
-  .card23:hover svg {
-    scale: 0;
-  }
-
-  .card24:hover svg {
-    scale: 0;
-  }
-
-    .card__content {
+  .card__content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -911,6 +800,8 @@ nav {
     justify-content: center;
     gap: 50px;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 10;
 }
 
 footer {
